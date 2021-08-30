@@ -1,4 +1,12 @@
 #mapid {
-    height: 1000px;
-    width: 1000px;
+    height: 790px;
+    width: 800px;
   }
+
+#right {
+  height: 790px;
+  width: 640px;
+  float: right;
+  background-color: black;
+  color: aliceblue;
+}
