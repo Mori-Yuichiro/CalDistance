@@ -10,3 +10,7 @@
   background-color: black;
   color: aliceblue;
 }
+
+#showDistance p {
+  border: solid 2px;
+}
