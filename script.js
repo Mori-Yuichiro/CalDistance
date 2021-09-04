@@ -81,5 +81,9 @@ const MeasureDistance = (e) => {
 
     const distance = 6371 * Math.acos(Math.cos(lat1) * Math.cos(lat2) * Math.cos(lng2 - lng1) + Math.sin(lat1) * Math.sin(lat2));
 
+    // show the distance on browser
+    const showDist = document.getElementById('showDistance');
+    showDist.innerHTML = '距離: ' + distance + 'km';
+
     console.log(distance + ' km');
 };
